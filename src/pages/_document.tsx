@@ -38,8 +38,9 @@ export default class MyDocument extends Document {
 
   render(): JSX.Element {
     return (
-      <Html lang="en">
+      <Html lang="pt">
         <Head>
+          <meta charSet="utf-8" />
           <meta name="theme-color" content={theme.palette.primary.main} />
           <link
             rel="stylesheet"
