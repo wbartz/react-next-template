@@ -1,18 +1,17 @@
 import CssBaseline from '@material-ui/core/CssBaseline';
 import { ThemeProvider } from '@material-ui/core/styles';
-import { AppProps } from 'next/app';
 import Head from 'next/head';
-import { useEffect } from 'react';
+import React, { useEffect } from 'react';
 import theme from '../assets/theme';
 
-const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
+const MyApp = ({ Component, pageProps }) => {
   useEffect(() => {
     const jssStyles = document.querySelector('#jss-server-side');
     if (jssStyles) jssStyles.parentElement.removeChild(jssStyles);
   }, []);
 
   return (
-    <>
+    <React.Fragment>
       <Head>
         <title>SCH</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, width=device-width" />
@@ -22,7 +21,7 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
         <CssBaseline />
         <Component {...pageProps} />
       </ThemeProvider>
-    </>
+    </React.Fragment>
   );
 };
 
