@@ -4791,10 +4791,10 @@ next-env@^1.1.1:
   resolved "https://registry.yarnpkg.com/next-env/-/next-env-1.1.1.tgz#4ec4c1f745f36a24fe95d500d1118a3e934d6d6e"
   integrity sha512-uZo/u0GhmkUaSg4Dcx39QsEGRFw2eianNsdzdm/9Bd4bTAfzDH/D6y0WyB34sESZ5hXPctHg3t3Q3U99QAMc1w==
 
-next-images@^1.4.1:
-  version "1.4.1"
-  resolved "https://registry.yarnpkg.com/next-images/-/next-images-1.4.1.tgz#946f34728609dc24517234d85b2f6b6f9a3344d1"
-  integrity sha512-Xkxxf+Hw/Pet2VVbw72jc7PAcOGisTTXa/L3a6XPRqSlhOJSXyGxE3U8hJn5wwfrzkXT31nxrfnfQKfbgjCPEg==
+next-images@^1.6.0:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/next-images/-/next-images-1.6.0.tgz#aeb75d461d92958fbf2033e963383791764ca741"
+  integrity sha512-Ub395DSBkRcNNLV1N9h/tkzmdvQMF5cXZwmPnNI25OcW3ruN+zrGlFsWN7bBgLoH/Xuiw2kS99zCXE2cxbs63w==
   dependencies:
     file-loader "^6.0.0"
     url-loader "^4.0.0"
